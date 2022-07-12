@@ -1,0 +1,164 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #6c6b6b;
+  }
+  
+  header, h2, .card, .nav-item, footer {
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+  }
+  
+  header {
+    width: 90%;
+    /* 横幅90% */
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .list-group i {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .list-group {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+  }
+  
+  header .heading {
+    /* headerタグ内のheadingクラスにのみ反映される */
+    font-size: 32px;
+  }
+  
+  .nav-link {
+    color: #6c6b6b;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .card-img-overlay {
+    width: 40%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 105px;
+  }
+  
+  .card-img-text {
+    color: #fff;
+    /* 文字色を白に変更 */
+  }
+  
+  .card-img-name {
+    margin-top: 30px;
+    /* 上側の外側の余白 */
+    color: #fff;
+    /* 文字色を白に変更 */
+  }
+  
+  main {
+    width: 800px;
+    /* 横幅800px */
+    display: flex;
+    /* Flexboxの利用 */
+    justify-content: center;
+    /* 要素の横並び・中央寄せ */
+    margin: 0 auto;
+    /* 要素の中央揃え */
+    padding: 70px 0;
+    /* 上下に70px、左右に0pxの内側余白 */
+  }
+  
+  .blog {
+    width: 540px;
+    margin-right: 30px;
+    /* 領域の右側余白 */
+  }
+  
+  .blog-heading {
+    border-bottom: 8px solid #f7f7f7;
+    text-align: center;
+    line-height: 0.6;
+  }
+  
+  .blog-box {
+    padding-top: 50px;
+  }
+  
+  .blog-item {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f7f7f7;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .blog-image {
+    height: 180px;
+  }
+  
+  .blog-text {
+    padding: 25px 0 0 30px;
+  }
+  
+  .blog-text-heading {
+    padding-bottom: 15px;
+  }
+  
+  .blog-date {
+    font-size: 12px;
+    display: inline-block;
+  }
+  
+  .sidebar {
+    width: 230px;
+  }
+  
+  .common-heading {
+    border-bottom: 8px solid #f7f7f7;
+    text-align: center;
+    line-height: 0.6;
+  }
+  
+  .sidebar-contents {
+    padding: 50px 0;
+  }
+  
+  .instagram .sidebar-contents {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .img-thumbnail {
+    width: 110px;
+    /* padding-top: 110px; */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    background-color: #848282;
+  }
+  
+  .footer-text {
+    color: #fff;
+  }
